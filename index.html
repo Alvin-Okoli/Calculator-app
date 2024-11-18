@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator Project</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div id="cal"><!--begining of calculator-->
+      <div id="screen"><!--begining of screen-->
+        <div id="history"></div><!--begining of history-->
+        <div id="input"></div><!--begining of input-->
+      </div><!--end of screen-->
+      <div id="keypad"><!--begining of keypad-->
+        <div class="row">
+        <button id="clear" class="operator">Cc</button>
+        <button id="backspace" class="operator">CE</button>
+        <button id="%" class="operator"  style="background-color: rgb(170, 164, 164);">%</button>
+        <button id="/" class="operator">&#247;</button>
+      </div>
+    <div class="row">
+        <button id="7" class="numbers">7</button>
+        <button id="8" class="numbers">8</button>
+        <button id="9" class="numbers">9</button>
+        <button id="*"class="operator">&times;</button>
+      </div>
+      <div class="row">
+        <button id="4" class="numbers">4</button>
+        <button id="5" class="numbers">5</button>
+        <button id="6" class="numbers">6</button>
+        <button id="-" class="operator">-</button>
+      </div>
+
+      <div class="row">
+        <button id="1" class="numbers">1</button>
+        <button id="2" class="numbers">2</button>
+        <button id="3" class="numbers">3</button>
+        <button id="+"class="operator">+</button>
+      </div>
+
+      <div class="row">
+        <button id="0" class="numbers" style="width: 100px; margin: 0 10px;">0</button>
+        <button id="." class="numbers">.</button>
+        <button id="=" class="operator">=</button>
+        </div><!--end of keypad-->
+
+      </div><!--end of calculator-->
+  </div>
+</body>
+</html>
+<script src="operator.js"></script>
